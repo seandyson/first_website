@@ -135,6 +135,34 @@ body{
 	background-color: white;
 }
 
+.cta-section{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.cta-section .cta-container{
+	background-color: #3882f6;
+}
+
+.cta-container{
+	display: flex;
+	justify-content: space-between;
+	gap: 20px;
+
+	padding: 24px 48px;
+	margin: 48px;
+	border-radius: 25px;
+}
+
+.cta-section button{
+	align-self: center;
+	color: white;
+	background-color: #3882f6;
+	border-radius: 25px;
+	border: 2px solid white;
+}
+
 #footer{
 	flex: 1;
 }

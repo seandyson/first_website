@@ -13,7 +13,7 @@ body{
 	display: flex;
 }
 
-#header, #footer, .hero-section{
+#header, #footer{
 	background-color: #1f2937;
 }
 .header-logo{

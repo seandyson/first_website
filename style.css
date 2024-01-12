@@ -7,17 +7,30 @@ body{
 	span 100% of the viewport. else body takes up only what it needs to */
 }
 
-div{
-	border: 2px solid red;
-}
 
 #header{
 	height: 60px;
 	display: flex;
 }
 
+#header, #footer, .hero-section{
+	background-color: #1f2937;
+}
+.header-logo{
+	font-size: 24px;
+	color: #f9faf8;
+}
+
 #main{
 	flex: 1;
+}
+
+.quote-section{
+	background-color: #e5e7eb;
+}
+
+.info-section, .cta-section{
+	background-color: white;
 }
 
 #footer{
